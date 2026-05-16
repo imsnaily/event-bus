@@ -10,6 +10,7 @@
         "strict": true,
         "target": "ESNext",
         "stripInternal": true,
+        "typeRoots": ["node_modules/@rbxts"],
         "moduleDetection": "force",
         "declaration": true,
         "rootDir": "src",
