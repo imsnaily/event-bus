@@ -19,7 +19,9 @@
         "typescript": "^5.0.0"
     },
     "devDependencies": {
-        "@types/node": "latest",
+        "@rbxts/compiler-types": "3.0.0-types.0",
+        "@rbxts/types": "^1.0.911",
+        "roblox-ts": "^3.0.0",
         "typescript": "^5.0.0"
     },
     "publishConfig": {
