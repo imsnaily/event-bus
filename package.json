@@ -1,0 +1,32 @@
+{
+    "name": "@snailycfx/event-bus",
+    "version": "1.0.7",
+    "description": "Lightweight event bus for roblox-ts enabling decoupled same-side script communication",
+    "main": "out/init.lua",
+    "types": "out/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "watch": "tsc -w",
+        "prepublishOnly": "npm run build"
+    },
+    "keywords": [
+        "roblox",
+        "roblox-ts"
+    ],
+    "author": "Snaily",
+    "license": "MIT",
+    "dependencies": {
+        "typescript": "^5.0.0"
+    },
+    "devDependencies": {
+        "@types/node": "latest",
+        "typescript": "^5.0.0"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/imsnaily/@snailycfx/event-bus"
+    }
+}
